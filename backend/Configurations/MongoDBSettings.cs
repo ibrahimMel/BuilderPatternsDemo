@@ -1,5 +1,5 @@
-namespace backend.Configurations
-{
+namespace backend.Configurations;
+
     public class MongoDBSettings
     {
         // chaine de connection à la base de données MongoDB
@@ -9,4 +9,3 @@ namespace backend.Configurations
         // le nom de la collection MongoDB pour les utilisateurs
         public string UsersCollectionName { get; set; } = string.Empty;
     }
-}
